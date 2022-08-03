@@ -1,0 +1,16 @@
+{
+    "rootDomain" : "enter your rootDomain",
+    "apikey": "enter your apikey",
+    "secretapikey": "enter your secretapikey",
+    "records": [
+        {
+            "subDomain" : "*",
+            "type" : "A",
+            "ip" : "100.100.100.100"
+        },
+        {
+            "subDomain" : "*",
+            "type" : "AAAA"
+        }
+    ]
+}
